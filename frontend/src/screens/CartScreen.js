@@ -1,12 +1,10 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Message from '../components/Message';
-import Loader from '../components/Loader';
 import {
   Row,
   Col,
   ListGroup,
-  ListGroupItem,
   Image,
   Form,
   Button,
