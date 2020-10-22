@@ -26,4 +26,8 @@ router
     productController.updateProduct
   );
 
+router
+  .route('/:id/reviews')
+  .post(authMiddleware.protect, productController.createProductReview);
+
 module.exports = router;
